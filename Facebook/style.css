@@ -1,0 +1,116 @@
+body{
+    background: rgb(243, 243, 243);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text{
+    width: 1200px;
+    position: relative;
+}
+
+h1{
+    margin-top: 200px;
+    margin-left: 180px;
+    color: rgb(65, 106, 218);
+    font-size: 50px;
+    
+
+}
+
+h2{
+    margin-left: 180px;
+    margin-top: -25px;
+    font-size: 28px;
+    width: 1000px;
+    float: left;
+    font-weight: 300;
+}
+
+#form{
+    position: relative;
+    float: right;
+    background-color: white;
+    margin-top: -290px;
+    margin-right: 180px;
+    text-align: center;
+    width: 400px;
+    height: 370px;
+    border-radius: 1%;
+    display: block;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0,0, 0.30);
+}
+
+input{
+    position: relative;
+    width: 330px;
+    height: 25px;
+    margin-top: 20px;
+    border: solid 0.5px rgba(77, 77, 77, 0.219);
+    font-size: 17px;
+    color: rgba(77, 77, 77, 0.596);
+    border-radius: 6px;
+    padding: 14px 16px;
+}
+
+.entrar{
+    position: relative;
+    width: 370px;
+    height: 53px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(0, 0,0, 0.30);
+    background-color:#1877f2;
+    color: white;
+    margin-top: 12px;
+    border: none;
+    margin-top: 20px;
+}
+
+.entrar:hover{
+    background-color: #105abb;
+}
+
+.esqueceusenha{
+    color: #1877f2;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+hr{
+    width: 350px;
+    size: 0.5px;
+    opacity: 0.2;
+}
+.criar{
+    background-color:#13b32e;
+    color: white;
+    width: 180px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.criar:hover{
+    background-color: #008a35;
+}
+
+.pagina{
+
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+.pagina a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.pagina a:hover{
+    text-decoration: underline;
+}
